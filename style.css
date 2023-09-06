@@ -18,6 +18,7 @@ html{
 .three {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(174, 0, 255);
+    font-size:17px
 }
 .container1 {
     display: flex;
