@@ -7,7 +7,7 @@ html{
 #img1 {
     border-radius: 60%;
     border-style: solid;
-    width: 330px;
+    width: 250px;
 }
 
 .one {
@@ -15,33 +15,46 @@ html{
     font-size: 70px;
 }
 
-.Three {
+.three {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(174, 0, 255);
 }
-
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+@media(max-width:800px){
+    .container1{
+        flex-direction: column;
+        height:100vh;
+    }
+}
 .dot1 {
-    height: 120px;
-    width: 120px;
-    background-color: orange;
+    width: 150px;
+    height: 150px;
+    background-color:orange;
     border-radius: 50%;
-    display: inline-block;
-    padding-top: 40px;
-    border-style: unset;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 150px;
 }
 
 .dot1:hover {
     cursor: pointer;
     background-color: ghostwhite;
     transition: 0.5s;
-
 }
 
 .dot2 {
-    height: 120px;
-    width: 120px;
-    background-color: red;
+    width: 150px;
+    height: 150px;
+    background-color:red;
     border-radius: 50%;
-    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 150px;
 
 }
 
@@ -53,11 +66,13 @@ html{
 }
 
 .dot3 {
-    height: 120px;
-    width: 120px;
-    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    background-color:aqua;
     border-radius: 50%;
-    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 150px;
 }
 
 .dot3:hover {
