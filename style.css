@@ -24,7 +24,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 40vh;
 }
 @media(max-width:800px){
     .container1{
